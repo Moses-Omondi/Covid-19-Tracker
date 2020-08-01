@@ -2,7 +2,7 @@
 
 #### Realtime Covid-19 Stats
 
-Realtime app to show covid-19 infection, recovery and death rates all over the world
+A realtime app that shows covid-19 infections, recovery and death rates of all countries.
 
 API Used: https://covid19.mathdro.id/api
 
