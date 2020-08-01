@@ -1,12 +1,17 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
 
-const App = () => {
-  return (
-    <div className='App'>
-      <h1>Covid-19 Tracker</h1>
-    </div>
-  );
-};
+import { Cards, Chart, CountryPicker } from "./components";
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Cards />
+        <Chart />
+        <CountryPicker />
+      </div>
+    );
+  }
+}
 
 export default App;
